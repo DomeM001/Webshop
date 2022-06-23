@@ -1,0 +1,114 @@
+.containerAlle{
+    width: 100%;
+    height: auto;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-flow: wrap;
+}
+.box{
+    height: 300px;
+    width: 20%;
+    margin: 20px;
+    box-sizing: border-box;
+    font-size: 50px;
+    text-align: center;
+    
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border: 1px solid rgba(255, 255, 255, 0.45); 
+}
+
+@media screen and (max-width:1200px){
+    .box{
+        width: 40%;
+    }
+}
+@media screen and (max-width:600px){
+    .box{
+        width: 90%;
+    }
+}
+.imageClass{
+    width: 150px;
+    height: 85px;
+    margin: 5px;
+}
+.artikelNameH3{
+    font-size: 25px;
+}
+.artNrPräfix{
+    font-size: 10px;
+    height: 15px;
+    margin: 0px;
+}
+.artikelNummerSpan{
+    font-size: 10px;
+    margin: 0px;
+}
+.beschreibungP{
+    font-size: 15px;
+    margin: 0px;
+}
+.priceSpan{
+    font-size: 20px;
+    margin: 0px;
+}
+.amountDiv{
+    padding: 0px;
+    margin-bottom: -30px;
+    max-height: 65px;
+}
+.plusButton, .minusButton{
+    width: 90px;
+    height: 35px;
+    font-size: 20px;
+    margin: 0px;
+
+    border-radius: 2rem;
+    background: rgba(53, 139, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);    
+    border: 1px solid rgba(53, 139, 255, 0.08);
+    transition: 1s;
+}
+.amountLabel{
+    font-size: 25px;
+    margin: 0px;
+}
+.amount{
+    width: 150px;
+    height: 30px;
+    font-size: 20px;
+    margin: 0px;
+}
+.addToCart{
+    width: 240px;
+    height: 35px;
+    font-size: 20px;
+    margin: 0px;
+    transition: 1s;
+
+    background: rgba(53, 139, 255, 0.3);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5.1px);
+    -webkit-backdrop-filter: blur(5.1px);    
+    border: 1px solid rgba(53, 139, 255, 0.08);
+}
+.addToCart:hover, .plusButton:hover, .minusButton:hover{
+    background: rgba(212, 34, 144, 0.768);
+    font-weight: bold;
+    font-size: 21px;
+    animation: hoverCart 0.7s linear;
+}
+@keyframes hoverCart {
+    from {font-size: 20px; background: rgba(53, 139, 255, 0.3); }
+    to {font-size: 21px; background: rgba(212, 34, 144, 0.768);}
+}

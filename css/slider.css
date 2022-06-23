@@ -1,0 +1,9 @@
+.sliderDiv{
+    height: 400px;
+    background-color: transparent;
+    width: 100%;
+    text-align: center;
+}
+#sliderImage{
+    border-radius: 2rem;
+}

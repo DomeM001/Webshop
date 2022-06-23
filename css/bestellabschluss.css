@@ -1,0 +1,29 @@
+.bestellabschlussDiv{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 10%;
+    height: auto;
+    
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border: 1px solid rgba(255, 255, 255, 0.45); 
+}
+.bestellabschlussDiv button{
+    border: 2px solid #3175a5;
+    border-radius: 2rem;
+    margin-left: 10px;
+    width: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #3175a5;
+
+}
+.bestellabschlussDiv h3{
+    margin-right: 15px;
+}

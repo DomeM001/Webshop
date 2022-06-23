@@ -1,0 +1,69 @@
+.loginFormDiv{
+    text-align: center;
+    justify-content: center;
+}
+.loginForm{
+    border-radius: 25px;
+    width: auto;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 10px;
+
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border: 1px solid rgba(255, 255, 255, 0.45);
+}
+.formText{
+    font-size: 40px;
+    letter-spacing: 2px;
+}
+/*
+.formLabel{
+
+}
+*/
+.formInput{
+    border-radius: 10px;
+    border: 1px solid black;
+    text-align:center
+}
+.loginButton{
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #5fe2ec86;
+}
+.neuesPasswort{
+    font-size: 15px;
+    width: 35%;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #ec5f5f86;
+}
+.registrierenDiv{
+    width: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border: 1px solid rgba(255, 255, 255, 0.45); 
+}
+.regButton{
+    background-color: #5fe2ec86;
+    width: 50%;
+    border: 1px solid black;
+    border-radius: 5px; 
+    padding: 5px;
+}

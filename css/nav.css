@@ -1,0 +1,120 @@
+  /* NAVBAR STYLING STARTS */
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.6);
+    color: #fff;
+    font-size:xx-large;
+   }
+   .nav-links{
+    background-color: #3175a5 0.5;
+   }
+   .nav-links a {
+    color: black;
+    background-color: transparent;
+   }
+   /* LOGO */
+.logo {
+    width: auto;
+    height: auto;
+    background-color: transparent;
+}
+/* NAVBAR MENU */
+.menu {
+    display: flex;
+    gap: 0.5em;
+    font-size: 24px;
+    background-color: transparent;
+    z-index: 10;
+}
+.menu li:hover {
+    background-color:#7DA2A7;
+    border-radius: 5px;
+    transition: 0.3s ease;
+    text-decoration: none!important;
+    cursor: pointer;
+}
+.menu li {
+    padding: 5px 14px;
+    background-color: transparent;
+    text-decoration: none!important;
+    list-style: none;
+    cursor: pointer;
+}
+.menu li a{
+    text-decoration: none!important;
+    cursor: pointer;
+}
+.menu li a:hover{
+   color: black;
+}
+
+/*RESPONSIVE NAVBAR MENU STARTS*/
+/* CHECKBOX HACK */
+input[type=checkbox]{
+    display: none;
+   } 
+   /*HAMBURGER MENU*/
+.hamburger {
+    color: black;
+    display: none;
+    font-size: 60px;
+    user-select: none;
+    background-color: transparent;
+}
+/* APPLYING MEDIA QUERIES */
+@media (max-width: 768px) {
+.menu { 
+    display:none;
+    position: absolute;
+    background-color: #3175a5 0.5;
+    right: 0;
+    left: 0;
+    text-align: center;
+    padding: 16px 0;
+    text-decoration: none!important;
+    cursor: pointer;
+}
+   .menu li:hover {
+    display: inline-block;
+    background-color:#7DA2A7;
+    transition: 0.8s ease-in-out;
+    text-decoration: none!important;
+    cursor: pointer;
+   }
+   .menu li + li {
+    margin-top: 12px;
+    background-color: transparent;
+   }
+   input[type=checkbox]:checked ~ .menu{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.9);
+   }
+   .hamburger {
+    display: block;
+   }
+}
+   #checkbox_toggle{
+       background-color: transparent;
+   }
+
+   #badgeID{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    background-color: transparent;
+    color: white;
+    text-align: center;
+   }
+   .badgeDiv{
+    width: 30px;
+    height: 30px;
+    border: 2px solid white;
+    border-radius: 25%;
+    background-color: #0E3551;
+    float: right;
+    text-align: center;
+    padding-bottom: 20px;
+   }

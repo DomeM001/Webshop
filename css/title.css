@@ -1,0 +1,39 @@
+.titelDiv{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    height: auto;
+    margin-left: 25%;
+    
+    margin-top: 10px;
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(7.5px);
+    -webkit-backdrop-filter: blur(7.5px);
+    border: 1px solid rgba(255, 255, 255, 0.45); 
+}
+/*
+.titelIcon{
+    width: 50px;
+    height: 50px;
+    margin-left: 25%;
+}
+*/
+.title{
+    /*
+    width: 30%;
+    height: auto;
+    min-height: 50px;
+    margin-top: 15px;
+    margin-left: 35%;
+    font-size: 35px;
+    text-align: center;
+    */
+    width: 30%;
+    height: auto;
+    min-height: auto;
+    float: left;
+    justify-content: space-between;
+}
